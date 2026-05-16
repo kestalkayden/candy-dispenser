@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "candy_dispenser:candy"
+    },
+    "title": {
+      "translate": "advancement.candy_dispenser.sweet_tooth.title"
+    },
+    "description": {
+      "translate": "advancement.candy_dispenser.sweet_tooth.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "craft_candy_dispenser": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "candy_dispenser:candy_dispenser"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "craft_candy_dispenser"
+    ]
+  ]
+}

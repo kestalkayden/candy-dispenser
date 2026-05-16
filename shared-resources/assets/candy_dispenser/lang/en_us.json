@@ -1,0 +1,24 @@
+{
+    "item.candy_dispenser.candy_mix": "Candy Mix",
+    "item.candy_dispenser.candy": "Candy",
+    "item.candy_dispenser.candy_dispenser": "Candy Dispenser",
+
+    "candy_dispenser.config.title": "Candy Dispenser Config",
+    "text.autoconfig.candy_dispenser.category.candy_dispenser": "Candy Dispenser Settings",
+    "text.autoconfig.candy_dispenser.option.candyDispenser.enabled": "Enabled",
+    "text.autoconfig.candy_dispenser.option.candyDispenser.enabled.@Tooltip[0]": "Enable or disable the candy dispenser functionality",
+    "text.autoconfig.candy_dispenser.option.candyDispenser.boostWhenDamaged": "Boost When Damaged",
+    "text.autoconfig.candy_dispenser.option.candyDispenser.boostWhenDamaged.@Tooltip[0]": "Feed to healing levels when player takes damage",
+    "text.autoconfig.candy_dispenser.option.candyDispenser.boostWhenDamaged.@Tooltip[1]": "Helps accelerate healing after combat",
+    "text.autoconfig.candy_dispenser.option.candyDispenser.healingHungerTarget": "Healing Hunger Target",
+    "text.autoconfig.candy_dispenser.option.candyDispenser.healingHungerTarget.@Tooltip[0]": "Target hunger level when boosting for healing",
+    "text.autoconfig.candy_dispenser.option.candyDispenser.healingHungerTarget.@Tooltip[1]": "Only used when boost when damaged is enabled",
+    "text.autoconfig.candy_dispenser.option.candyDispenser.healingSaturationTarget": "Healing Saturation Target",
+    "text.autoconfig.candy_dispenser.option.candyDispenser.healingSaturationTarget.@Tooltip[0]": "Target saturation level when boosting for healing",
+    "text.autoconfig.candy_dispenser.option.candyDispenser.healingSaturationTarget.@Tooltip[1]": "Only used when boost when damaged is enabled",
+    "text.autoconfig.candy_dispenser.option.candyDispenser.recipeEnabled": "Recipe Enabled",
+    "text.autoconfig.candy_dispenser.option.candyDispenser.recipeEnabled.@Tooltip[0]": "Enable or disable the candy dispenser crafting recipe",
+
+    "advancement.candy_dispenser.sweet_tooth.title": "Sweet Tooth!",
+    "advancement.candy_dispenser.sweet_tooth.description": "Craft a Candy Dispenser to satisfy your sweet cravings automatically"
+}

@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="CC0-1.0"
+
+[[mods]]
+modId="candy_dispenser"
+version="${version}"
+displayName="Candy Dispenser"
+description='''
+A portable candy storage item that automatically feeds you when hungry and provides healing boosts when damaged.
+'''
+authors="Kestalkayden"
+displayURL="https://github.com/kestalkayden/candy-dispenser"
+logoFile="icon.png"
+
+[[dependencies.candy_dispenser]]
+modId="neoforge"
+type="required"
+versionRange="[26.1,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.candy_dispenser]]
+modId="minecraft"
+type="required"
+versionRange="[26.1,26.2)"
+ordering="NONE"
+side="BOTH"

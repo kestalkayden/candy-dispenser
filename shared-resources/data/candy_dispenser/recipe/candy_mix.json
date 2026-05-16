@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:sugar",
+    "minecraft:sweet_berries"
+  ],
+  "result": {
+    "id": "candy_dispenser:candy_mix",
+    "count": 2
+  }
+}

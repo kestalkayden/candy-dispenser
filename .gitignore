@@ -1,0 +1,46 @@
+# gradle - multi-project support
+.gradle/
+build/
+*/build/
+out/
+classes/
+*/out/
+*/classes/
+
+# eclipse
+*.launch
+
+# idea
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# vscode
+.settings/
+.vscode/
+bin/
+.classpath
+.project
+
+# macos
+*.DS_Store
+
+# minecraft development - multi-project support
+run/
+*/run/
+logs/
+*/logs/
+
+# java
+hs_err_*.log
+replay_*.log
+*.hprof
+*.jfr
+
+# docs (auto-generated)
+docs/
+
+# Local AI-tooling context — not for public repo
+CLAUDE.md
+.claude/
