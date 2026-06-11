@@ -1,6 +1,7 @@
 package com.candy.dispenser.item;
 
 import net.minecraft.ChatFormatting;
+import net.minecraft.core.component.DataComponents;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;
@@ -13,14 +14,10 @@ public class CandyDispenserItem extends Item {
     private static final int MAX_CANDY = 512;
 
     public CandyDispenserItem(Properties properties) {
-        super(properties.durability(MAX_CANDY));
-    }
-
-    @Override
-    public ItemStack getDefaultInstance() {
-        ItemStack stack = super.getDefaultInstance();
-        stack.setDamageValue(MAX_CANDY);
-        return stack;
+        // Default DAMAGE to MAX_CANDY so every new stack (crafting output,
+        // creative tab, /give) starts empty — candy count is MAX_CANDY - damage.
+        super(properties.durability(MAX_CANDY)
+            .component(DataComponents.DAMAGE, MAX_CANDY));
     }
 
     @Override
