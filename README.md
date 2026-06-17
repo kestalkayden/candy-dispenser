@@ -1,6 +1,6 @@
 # Candy Dispenser
 
-**A handheld candy dispenser that automatically feeds you candy when hungry, providing healing boosts when damaged. Available on Fabric and NeoForge for Minecraft 26.1.x.**
+**A handheld candy dispenser that automatically feeds you candy when hungry, providing healing boosts when damaged. Available on Fabric and NeoForge for Minecraft 26.2.**
 
 ## About This Mod
 
@@ -23,9 +23,9 @@ The dispenser holds up to 512 pieces of candy. Candy level is shown as a durabil
 
 ### Configuration
 
-**Fabric:** Open the in-game config screen via [ModMenu](https://modrinth.com/mod/modmenu) (requires [Cloth Config](https://modrinth.com/mod/cloth-config)) — toggle enabled, damage-boost, recipe availability, healing targets.
+**Fabric:** Open the built-in config screen via [ModMenu](https://modrinth.com/mod/modmenu) — toggle enabled, damage-boost, recipe availability, and the healing targets. Settings are stored in `config/candy_dispenser.json`.
 
-**NeoForge:** Edit `config/candy_dispenser-common.toml` in your world / instance directory. No in-game UI in this release.
+**NeoForge:** Edit `config/candy_dispenser-common.toml` in your world / instance directory, or use the Config button on the NeoForge mods list.
 
 ### Feeding rules
 - Checked once per second (20 ticks).
@@ -34,24 +34,24 @@ The dispenser holds up to 512 pieces of candy. Candy level is shown as a durabil
 
 ## Requirements
 
-- Minecraft **26.1, 26.1.1, or 26.1.2**
+- Minecraft **26.2**
 - Java **25+**
 - One of:
-  - **Fabric:** Fabric Loader 0.18.4+, Fabric API 0.149.0+26.1.2
-  - **NeoForge:** 26.1.x
+  - **Fabric:** Fabric Loader 0.18.4+, Fabric API 0.152.1+26.2
+  - **NeoForge:** 26.2.0.0-beta+
 
-**Optional (Fabric only):** [Cloth Config](https://modrinth.com/mod/cloth-config) and [ModMenu](https://modrinth.com/mod/modmenu) for the config GUI.
+**Optional (Fabric only):** [ModMenu](https://modrinth.com/mod/modmenu) for the in-game config screen.
 
 ## Installation
 
 **Fabric:**
-1. Install [Fabric Loader](https://fabricmc.net/use/) for MC 26.1.x
+1. Install [Fabric Loader](https://fabricmc.net/use/) for MC 26.2
 2. Install [Fabric API](https://modrinth.com/mod/fabric-api)
-3. (Optional) Install Cloth Config + ModMenu for the config GUI
+3. (Optional) Install ModMenu for the in-game config screen
 4. Drop `candy-dispenser-fabric-<version>.jar` into your `mods/` folder
 
 **NeoForge:**
-1. Install [NeoForge 26.1.x](https://neoforged.net/)
+1. Install [NeoForge 26.2.0.0-beta+](https://neoforged.net/)
 2. Drop `candy-dispenser-neoforge-<version>.jar` into your `mods/` folder
 
 ## Building from Source
