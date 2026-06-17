@@ -25,7 +25,7 @@ The dispenser holds up to 512 pieces of candy. Candy level is shown as a durabil
 
 **Fabric:** Open the in-game config screen via [ModMenu](https://modrinth.com/mod/modmenu) (requires [Cloth Config](https://modrinth.com/mod/cloth-config)) — toggle enabled, damage-boost, recipe availability, healing targets.
 
-**NeoForge:** Edit `config/candy_dispenser-common.toml` in your world / instance directory. No in-game UI in this release.
+**NeoForge:** Edit `config/candy_dispenser-common.toml` in your world / instance directory, or use the Config button on the NeoForge mods list.
 
 ### Feeding rules
 - Checked once per second (20 ticks).

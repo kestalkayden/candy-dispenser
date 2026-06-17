@@ -2,10 +2,12 @@ package com.candy.dispenser;
 
 import com.candy.dispenser.config.CandyDispenserConfig;
 import com.candy.dispenser.item.ModItems;
+import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.ModContainer;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.config.ModConfig;
+import net.neoforged.fml.loading.FMLEnvironment;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -23,5 +25,12 @@ public class CandyDispenser {
         CONFIG = CandyDispenserConfig.CONFIG;
 
         ModItems.init(modBus);
+
+        if (FMLEnvironment.getDist() == Dist.CLIENT) {
+            // In-game config screen (Config button on the mods list), driven by the ModConfigSpec
+            // registered above. Isolated in a client-only class so the dedicated server never loads
+            // or verifies the Screen-referencing code — see CandyDispenserNeoForgeClient.
+            com.candy.dispenser.client.CandyDispenserNeoForgeClient.init(container);
+        }
     }
 }
