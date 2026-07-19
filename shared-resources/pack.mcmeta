@@ -1,7 +1,14 @@
 {
   "pack": {
     "description": "Candy Dispenser resources",
-    "min_format": 84,
-    "max_format": 101
+    "pack_format": 88,
+    "min_format": [
+      88,
+      0
+    ],
+    "max_format": [
+      107,
+      1
+    ]
   }
 }
